@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --bg-primary: #f5f8fb;
-  --bg-secondary: #ffffff;
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
   --bg-dark: #0f172a;
   --bg-dark-secondary: #1e293b;
 
-  --color-text-main: #0f172a;
-  --color-text-muted: #64748b;
+  --color-text-main: #f8fafc;
+  --color-text-muted: #94a3b8;
   --color-text-light: #f8fafc;
   
   --primary-accent: #10b981; /* Emerland green for agriculture */
@@ -17,12 +17,12 @@
   --warning-accent: #f59e0b; /* Orange for alerts */
   --danger-accent: #ef4444; /* Red */
   
-  --card-bg: rgba(255, 255, 255, 0.85);
+  --card-bg: rgba(30, 41, 59, 0.85);
   
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
   --shadow-glow-green: 0 0 15px rgba(16, 185, 129, 0.3);
   --shadow-glow-blue: 0 0 15px rgba(59, 130, 246, 0.3);
 
@@ -31,25 +31,9 @@
   --radius-lg: 1rem;
   --radius-md: 0.5rem;
   
-  --glass-bg: rgba(255, 255, 255, 0.7);
-  --glass-border: 1px solid rgba(255, 255, 255, 0.4);
+  --glass-bg: rgba(30, 41, 59, 0.6);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.1);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-primary: var(--bg-dark);
-    --bg-secondary: var(--bg-dark-secondary);
-    --color-text-main: var(--color-text-light);
-    --color-text-muted: #94a3b8;
-    --card-bg: rgba(30, 41, 59, 0.85);
-    --glass-bg: rgba(30, 41, 59, 0.6);
-    --glass-border: 1px solid rgba(255, 255, 255, 0.1);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
-    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
-  }
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
