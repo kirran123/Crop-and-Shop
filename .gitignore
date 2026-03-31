@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist-ssr/
+*.local
+.env
+.DS_Store
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.log
+backend/credentials.json
+backend/firebase-adminsdk.json
